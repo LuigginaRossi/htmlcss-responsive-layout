@@ -45,11 +45,15 @@ section,footer {
 
 h1 {
     font-size: 5rem;
+    color: rgb(253, 193, 95);
+    padding-bottom: var(--spacer);
 }
 
 h2 {
     font-size: 2rem;
-}
+    padding-bottom: var(--spacer);
+    color: var(--secondary-color);
+} 
 
 h3 {
     font-size: 1.5rem;
@@ -110,6 +114,16 @@ p{
 .bg-secondary {
     background-color: var(--secondary-color);
     color: white;
+}
+
+.developer p,.benefits p{
+    color: black;
+    font-style: italic;
+    /* sistemare font... */
+}
+
+.bt-secondary {
+    background-color: var(--secondary-color);
 }
 
 
@@ -205,15 +219,6 @@ nav .container.row{
     text-align: center;
 }
 
-.developer .card h4 {
-    color: black;
-}
-
-.developer p{
-    color: black;
-    font-style: italic;
-    /* sistemare font... */
-}
 
 .fa-arrow-down{
     background-color: var(--secondary-color);
@@ -233,7 +238,6 @@ main section .testimonial.card{
     margin-bottom: var(--spacer);
     color: white;
     align-items: center;
-    
 }
 
 .circle-img{
@@ -241,16 +245,53 @@ main section .testimonial.card{
     aspect-ratio: 1/1;
     border-radius: 50%;
     object-fit: cover;
+    padding-bottom: var(--spacer);
 }
 
 .name-test{
     padding: 2rem 0;
 }
 
+.testimonial-img-container{
+    padding: 1rem 4rem;
+}
+
 
 /* benefits section */
 .benefits .card{
     background-color: white;
+}
+
+.numer-card{
+    font-size: 5rem;
+}
+
+.benefits h4 {
+    color: var(--secondary-color)
+}
+
+/* about section */
+.bold-font-size {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+    padding-bottom: var(--spacer);
+}
+
+/* Started section*/
+.bt-white{
+    background-color: white;
+    color: var(--secondary-color);
+}
+#get-started{
+    text-align: center;
+}
+
+.pb1{
+    padding-bottom: var(--spacer);
+}
+#a-underline{
+    text-decoration: underline;
 }
 
 /* footer section */

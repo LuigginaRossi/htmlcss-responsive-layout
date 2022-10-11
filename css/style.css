@@ -126,6 +126,9 @@ p{
     background-color: var(--secondary-color);
 }
 
+.a-underline{
+    text-decoration: underline;
+}
 
 /*************************************************
    SECTIONS
@@ -290,12 +293,11 @@ main section .testimonial.card{
 .pb1{
     padding-bottom: var(--spacer);
 }
-#a-underline{
-    text-decoration: underline;
-}
+
 
 /* footer section */
 .bg-tertiary{
     background-color: var(--tertiary-color);
     color: white;
+    text-align: center;
 }

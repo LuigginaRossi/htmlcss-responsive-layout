@@ -10,11 +10,12 @@
     --secondary-color:rgb(150, 145, 227);
     --tertiary-color: rgb(51, 51, 51);
     --spacer:1rem;
+    --spacer-col: .5rem 1rem;
 }
 /*************************************************
     GENERAL STYLES
  *************************************************/
-body{
+body {
     font-family: 'Roboto', sans-serif;;
 }
 
@@ -36,7 +37,7 @@ button {
     display: inline-block;
     cursor: pointer;
 }
-section,footer{
+section,footer {
     padding: var(--spacer);
 }
 
@@ -53,14 +54,17 @@ section,footer{
     margin: auto;
     padding: 1rem;
 }
+.col {
+    width: 100%;
+    padding: .5rem 0rem;
+}
 
-.card{
-    flex-basis: 100%;
+.card {
     background-color: var(--primary-color-light);
     border-radius: 10px;
     padding: var(--spacer);
-    margin: .5rem;
 }
+
 .col-1-2 {
     flex-basis: calc(100% / 2);
 }

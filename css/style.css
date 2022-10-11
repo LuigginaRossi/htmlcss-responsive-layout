@@ -40,7 +40,7 @@ button {
     margin-bottom: var(--spacer);
 }
 section,footer {
-    padding: var(--spacer);
+    padding: calc(var(--spacer) * 2);
 }
 
 h1 {

@@ -26,6 +26,7 @@ html {
 img {
     width: 100%;
     display: block;
+    padding-bottom: 1rem;
 }
 
 button {
@@ -33,12 +34,35 @@ button {
     border: none;
     border-radius: 20px;
     background-color: var(--primary-color);
-    padding: calc(var(--spacer) / 2);
+    padding: .5rem 1rem;
     display: inline-block;
     cursor: pointer;
+    margin-bottom: var(--spacer);
 }
 section,footer {
     padding: var(--spacer);
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    padding-bottom: var(--spacer);
+}
+
+h4 {
+    font-size: 1rem;
+    padding-bottom: var(--spacer);
+    color: var(--primary-color);
+}
+p{
+    padding-bottom: var(--spacer);
 }
 
 /*************************************************
@@ -54,15 +78,16 @@ section,footer {
     margin: auto;
     padding: 1rem;
 }
-.col {
-    width: 100%;
-    padding: .5rem 0rem;
-}
 
 .card {
     background-color: var(--primary-color-light);
     border-radius: 10px;
     padding: var(--spacer);
+}
+
+.col {
+    width: 100%;
+    padding: .5rem 0rem;
 }
 
 .col-1-2 {
@@ -87,6 +112,7 @@ section,footer {
     color: white;
 }
 
+
 /*************************************************
    SECTIONS
  *************************************************/
@@ -101,13 +127,19 @@ section,footer {
     display: none;
     
 }
-ul{
+ 
+ul {
     list-style: none;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
     padding: 0 .5rem;
+}
+
+.logo{
+    width: 50%;
 }
 
 header nav {
@@ -127,12 +159,94 @@ nav .container.row{
 }
 .bt-nav{
     padding: 0 .5rem;
+    margin-bottom: 0;
 }
 
 /* card section  */
 .container.cards {
- margin-top: calc(60px + 1rem);
+     margin-top: calc(60px + 1rem);
 }
+
+.container.cards .card {
+    overflow: hidden;
+    height: 50vh;
+}
+
+.pb-phone{
+    padding-bottom: 0;
+}
+
+.phone-container {
+    overflow: hidden;
+}
+
+.phone {
+    width: 70%;
+    align-self: flex-end;
+    margin-bottom: -1rem;
+}
+.cards .md-col-1-3{
+    text-align: center;
+}
+
+.fa-file-code,.fa-compass-drafting,.fa-laptop-code,.fa-bullhorn{
+    font-size: 5rem;
+    color: var(--primary-color);
+    padding-bottom: var(--spacer);
+}
+
+/* strategic section */
+.developer {
+    align-self: flex-end;   
+}
+
+.developer .card {
+    background-color: white;
+    text-align: center;
+}
+
+.developer .card h4 {
+    color: black;
+}
+
+.developer p{
+    color: black;
+    font-style: italic;
+    /* sistemare font... */
+}
+
+.fa-arrow-down{
+    background-color: var(--secondary-color);
+    padding: .5rem .7rem;
+    border-radius: 50%;
+    color: black;
+}
+
+/* testimonials section */
+.testimonials-center {
+    text-align: center;
+    padding-bottom: var(--spacer);
+}
+
+main section .testimonial.card{
+    background-color: var(--secondary-color);
+    margin-bottom: var(--spacer);
+    color: white;
+    align-items: center;
+    
+}
+
+.circle-img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name-test{
+    padding: 2rem 0;
+}
+
 
 /* benefits section */
 .benefits .card{

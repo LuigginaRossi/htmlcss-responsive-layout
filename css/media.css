@@ -1,5 +1,9 @@
 /* md */
 @media screen and (min-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
     .md-col-1-3 {
         flex-basis: calc(100% / 3);
         padding: var(--spacer-col);
@@ -22,10 +26,17 @@
         margin: auto;
         text-align: center;
     }
+
+    .row.bp-phone {
+        flex-direction: column;
+    }
 }
 
 /* lg */
 @media screen and (min-width: 920px) {
+    html {
+        font-size: 16px;
+    }
     .container{
         max-width: 920px;
     }

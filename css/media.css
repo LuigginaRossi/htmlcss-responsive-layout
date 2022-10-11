@@ -13,7 +13,7 @@
         flex-direction: column;
         align-items: center;
     }
-    
+
     .md-50{
         width: 50%;
         margin: auto;
@@ -38,6 +38,7 @@
     .lg-col-1-4 {
         flex-basis: calc(100% /4);
     }
+
     .lg-col-3-4 {
         flex-basis: calc(100% /4 *3);
     }
@@ -46,5 +47,9 @@
         width: 50%;
         margin: auto;
         text-align: center;
+    }
+
+    .menu{
+        display: block;
     }
 }

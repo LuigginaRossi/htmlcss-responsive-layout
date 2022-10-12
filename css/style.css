@@ -130,12 +130,24 @@ p{
     text-decoration: underline;
 }
 
+.bt-white {
+    background-color: white;
+    color: black;
+    border: none;
+    margin: 0;
+    padding: .2rem .3rem;
+}
+
 /*************************************************
    SECTIONS
  *************************************************/
 
 
 /* navbar */
+.container-logo {
+ height: 100%;;
+}
+
 .container-menu {
     position: relative;
 }
